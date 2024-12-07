@@ -1,0 +1,208 @@
+
+/* body */
+body{
+    background: radial-gradient(circle, rgba(255,250,250,1) 0%, rgba(131,69,108,1) 50%, rgba(255,255,255,1) 100%);
+}
+/* Acceuil */
+.Acceuil{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: black;
+    padding: 400px 0 100px 0;
+}
+.PAcceuil{
+    color: white;
+    font-size: 24px;
+}
+/* menu */
+.menu{
+    background-color: black;
+    position: fixed;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+}
+a:hover{
+    color:red;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+li{
+    padding: 40px 80px 40px;
+}
+
+/* formulaire */
+.inscription{
+    margin: 0px 40%;
+}
+
+/* tableau */
+.tableau{
+    margin-top: 200px;
+}
+th,
+td{
+    border: 2px solid black;
+    font-size: 80px;
+}
+
+/* Articles */
+.Article{
+    margin-top: 200px;
+}
+h2{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+.PEW:hover{
+    animation: dark 0.4s linear ;
+    filter: brightness(20%);
+}
+@keyframes allonge {
+    
+    0%{
+        padding-left: 50px;
+    }
+
+    100%{
+        padding-left: 300px;
+    }
+    
+}
+.funfact1{
+    font-size: 100px;
+    color: white;
+    background-image: url("../images/34984751.webp") ;
+    padding-bottom: 400px;
+    margin-left: 20%;
+    padding-left: 50px;
+}
+.funfact1:hover{
+    animation: allonge 2s ease 1;
+    padding-left: 300px;
+
+}
+.funfact2{
+    
+    font-size: 100px;
+    color: white;
+    background-image: url("../images/venus.jpg") ;
+    background-size: cover;
+    padding-bottom: 400px;
+    margin-right: 20%;
+    padding-right: 50px;
+}
+.funfact2:hover{
+    animation: allonge 2s ease 1;
+    padding-left: 300px;
+
+}
+.funfact3{
+    
+    font-size: 100px;
+    color: white;
+    background-image: url("../images/terre-1.png") ;
+    background-size: cover;
+    padding-bottom: 400px;
+    margin-left: 20%;
+    padding-left: 50px;
+}
+.funfact3:hover{
+    animation: allonge 2s ease 1;
+    padding-left: 300px;
+
+}
+.funfact4{
+    
+    font-size: 100px;
+    color: white;
+    background-image: url("../images/mars.jpg") ;
+    background-size: cover;
+    padding-bottom: 400px;
+    margin-right: 20%;
+    padding-right: 50px;
+    
+}
+.funfact4:hover{
+    animation: allonge 2s ease 1;
+    padding-left: 300px;
+
+}
+
+
+.PPArticle{
+    font-size: 64px;
+    text-align: center;
+}
+
+/* vidéo */
+.video{
+    display: flex;
+    margin: 10%;
+    border: 40px solid black;
+}
+.Pvideo{
+    font-size: 64px;
+}
+/* gallerie */
+.galerie{
+    display: flex;
+    flex-direction: row;
+}
+.titre{
+    border: 20px solid black;
+}
+.POW{
+    display: flex;
+    padding: 2%;
+    width: 100%;
+    filter: brightness(20%);
+}
+@keyframes bright {
+    0%{filter: brightness(20%);
+
+    }
+    100%{
+        filter: brightness(100%);
+    }
+    
+}
+.POW:hover{
+    animation: bright 3s linear ;
+    filter: brightness(100%);
+}
+/* footer */
+footer{
+    background-color: black;
+    justify-content: space-around;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding-top: 200px;
+}
+.rejoindre{
+    display: flex;
+    flex-direction: column;
+}
+.social{
+    padding-left: 10px;
+    width: 80px;
+    filter: grayscale(100%);
+}
+.social:hover{
+    filter: grayscale(0%);
+}
+.media{
+    display: flex;
+
+}
